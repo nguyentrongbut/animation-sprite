@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+.sprite {
+    width: 104px;
+    height: 104px;
+    background: url(./img/unlogin-sprite_9dfb072.png);
+}
+
+@keyframes run {
+    0% {
+        background-position: -0px -0px;
+    }
+
+    11.11111111111111% {
+        background-position: -936px -0px;
+    }
+
+    22.22222222222222% {
+        background-position: -1872px -0px;
+    }
+
+    33.33333333333333% {
+        background-position: -2808px -0px;
+    }
+
+    44.44444444444444% {
+        background-position: -0px -11.555555555555555px;
+    }
+
+    55.55555555555556% {
+        background-position: -936px -11.555555555555555px;
+    }
+
+    66.66666666666666% {
+        background-position: -1872px -11.555555555555555px;
+    }
+
+    77.77777777777777% {
+        background-position: -2808px -11.555555555555555px;
+    }
+
+    88.88888888888889% {
+        background-position: -0px -23.11111111111111px;
+    }
+}

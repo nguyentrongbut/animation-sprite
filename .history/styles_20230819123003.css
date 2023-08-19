@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+.sprite {
+    width: 104px;
+    height: 104px;
+    background: url(./img/unlogin-sprite_9dfb072.png);
+    animation: run 1s infinite steps(1);
+}
+
+@keyframes run {
+    0% {
+        background-position: -0px -0px;
+    }
+    20% {
+
+    }
+    
+}
